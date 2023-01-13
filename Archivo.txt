@@ -1,0 +1,2 @@
+El manejo de archivos externos es genial pero confuso
+Se agrego esta linea entre la posicion 0 y 1 que se encontraba en el archivo por lo que esta pasaria a ser la posicion 1 
