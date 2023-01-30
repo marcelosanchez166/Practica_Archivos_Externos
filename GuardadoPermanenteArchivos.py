@@ -25,8 +25,7 @@ class ListaPersonas:
             # Carga los datos que se almacenaron con anterioridad en
             self.personas = pickle.load(ListaDePersonas)
             # binario en el ficherodeGuardado
-            print("Se guardo {} Persona al fichero externo ".format(
-                len(self.personas)))
+            print("Se guardo {} Persona al fichero externo ".format(len(self.personas)))
         except:  # Mensaje que dara cuando muestre que el fichero esta vacio
             print("El fichero esta vacio ")
         finally:  # termina cerrando el fichero y elimina la varible en memoria ListaDePersonas
